@@ -3,6 +3,7 @@ import { Lexend } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { FixedThemeToggle } from "@/components/FixedThemeToggle";
+import { LenisProvider } from "@/components/LenisProvider";
 
 const lexend = Lexend({
   variable: "--font-lexend",
@@ -55,6 +56,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <LenisProvider />
           {children}
           <FixedThemeToggle />
         </ThemeProvider>

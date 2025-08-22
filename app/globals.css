@@ -80,7 +80,8 @@
 
 .dark {
   --background: oklch(0.15 0.01 240);
-  --foreground: oklch(0.95 0.01 85) --card: oklch(0.22 0.02 240);
+  --foreground: oklch(0.95 0.01 85);
+  --card: oklch(0.22 0.02 240);
   --card-foreground: oklch(0.95 0.01 85);
   --popover: oklch(0.22 0.02 240);
   --popover-foreground: oklch(0.95 0.01 85);
@@ -114,6 +115,9 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth snap-mandatory snap-y;
   }
   body {
     @apply bg-background text-foreground;

@@ -38,7 +38,7 @@ export function FixedThemeToggle() {
               exit={{ rotate: -90, scale: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
             >
-              <Sun className="h-6 w-6" />
+              <Sun className="h-6 w-6 text-primary-foreground" />
             </motion.div>
           )}
         </AnimatePresence>

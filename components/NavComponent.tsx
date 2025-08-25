@@ -14,11 +14,11 @@ export function NavComponent() {
       <Button
         variant="ghost"
         size="icon"
-        className="z-60 size-10 lg:hidden"
+        className="z-60 size-10 lg:hidden text-background"
         onClick={toggleMenu}
       >
         {isMobileMenuOpen ? (
-          <X className="size-10" />
+          <X className="size-10 text-destructive" />
         ) : (
           <Menu className="size-10" />
         )}
@@ -34,7 +34,7 @@ export function NavComponent() {
               duration: 0.5,
               ease: [0.4, 0, 0.2, 1],
             }}
-            className="lg:hidden fixed z-50 top-0 left-0 h-1/2 w-full text-center p-4 pt-16 bg-background"
+            className="lg:hidden fixed z-50 top-0 left-0 w-full text-center p-4 py-16 bg-background"
           >
             <div className="flex flex-col justify-start items-center gap-5">
               <motion.div

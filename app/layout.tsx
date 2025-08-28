@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { FixedThemeToggle } from "@/components/FixedThemeToggle";
 import { LenisProvider } from "@/components/LenisProvider";
 
 const lexend = Lexend({
@@ -58,7 +57,6 @@ export default function RootLayout({
         >
           <LenisProvider />
           {children}
-          <FixedThemeToggle />
         </ThemeProvider>
       </body>
     </html>

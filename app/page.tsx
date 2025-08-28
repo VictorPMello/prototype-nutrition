@@ -3,6 +3,7 @@ import { FixedThemeToggle } from "@/components/FixedThemeToggle";
 import { FormComponent } from "@/components/FormComponet";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
+import { InfosComponent } from "@/components/InfosComponent";
 import { MethodComponent } from "@/components/MethodComponent";
 import { ResultsComponent } from "@/components/ResultsComponent";
 import Image from "next/image";
@@ -27,6 +28,7 @@ export default function Home() {
         <MethodComponent />
         <ResultsComponent />
         <DifferentialComponent />
+        <InfosComponent />
       </main>
 
       <FixedThemeToggle />

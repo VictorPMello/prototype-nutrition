@@ -3,6 +3,7 @@ import { FormComponent } from "@/components/FormComponet";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { MethodComponent } from "@/components/MethodComponent";
+import { ResultsComponent } from "@/components/ResultsComponent";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <HeroSection />
         <FormComponent />
         <MethodComponent />
+        <ResultsComponent />
       </main>
 
       <FixedThemeToggle />

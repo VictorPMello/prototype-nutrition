@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 import * as Z from "zod";
 
 import { useRef } from "react";
-import Image from "next/image";
 import { motion } from "motion/react";
 
 import { Button } from "@/components/ui/button";
@@ -21,9 +20,7 @@ import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
-  SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -61,16 +58,8 @@ export function FormComponent() {
   return (
     <motion.section
       ref={ref}
-      className="min-h-screen flex flex-col gap-4 p-4 justify-center items-center snap-start snap-always relative text-center"
+      className="min-h-screen flex justify-center items-center snap-start snap-always"
     >
-      <Image
-        className="w-screen h-screen absolute inset-0 z-[-10]"
-        src="/formBg.jpg"
-        width={500}
-        height={500}
-        alt="Picture of the author"
-      />
-
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

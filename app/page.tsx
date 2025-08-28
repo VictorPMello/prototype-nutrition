@@ -1,3 +1,4 @@
+import { DifferentialComponent } from "@/components/DifferentialComponent";
 import { FixedThemeToggle } from "@/components/FixedThemeToggle";
 import { FormComponent } from "@/components/FormComponet";
 import { Header } from "@/components/Header";
@@ -25,6 +26,7 @@ export default function Home() {
         <FormComponent />
         <MethodComponent />
         <ResultsComponent />
+        <DifferentialComponent />
       </main>
 
       <FixedThemeToggle />

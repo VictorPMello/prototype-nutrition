@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { InfosComponent } from "@/components/InfosComponent";
 import { MethodComponent } from "@/components/MethodComponent";
+import { Photos } from "@/components/Photos";
 import { ResultsComponent } from "@/components/ResultsComponent";
 import Image from "next/image";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <ResultsComponent />
         <DifferentialComponent />
         <InfosComponent />
+        <Photos />
       </main>
 
       <FixedThemeToggle />

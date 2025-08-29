@@ -1,4 +1,5 @@
 import { DifferentialComponent } from "@/components/DifferentialComponent";
+import { FAQComponent } from "@/components/FAQComponent";
 import { FixedThemeToggle } from "@/components/FixedThemeToggle";
 import { FormComponent } from "@/components/FormComponet";
 import { Header } from "@/components/Header";
@@ -7,6 +8,7 @@ import { InfosComponent } from "@/components/InfosComponent";
 import { MethodComponent } from "@/components/MethodComponent";
 import { Photos } from "@/components/Photos";
 import { ResultsComponent } from "@/components/ResultsComponent";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -31,6 +33,7 @@ export default function Home() {
         <DifferentialComponent />
         <InfosComponent />
         <Photos />
+        <FAQComponent />
       </main>
 
       <FixedThemeToggle />

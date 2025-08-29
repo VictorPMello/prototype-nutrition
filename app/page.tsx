@@ -2,6 +2,7 @@ import { ConsultationForm } from "@/components/ConsultationForm";
 import { DifferentialComponent } from "@/components/DifferentialComponent";
 import { FAQComponent } from "@/components/FAQComponent";
 import { FixedThemeToggle } from "@/components/FixedThemeToggle";
+import { Footer } from "@/components/Footer";
 import { FormComponent } from "@/components/FormComponet";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
@@ -37,6 +38,7 @@ export default function Home() {
         <FAQComponent />
         <ConsultationForm />
       </main>
+      <Footer />
 
       <FixedThemeToggle />
     </>

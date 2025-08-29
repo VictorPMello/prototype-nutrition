@@ -1,3 +1,4 @@
+import { ConsultationForm } from "@/components/ConsultationForm";
 import { DifferentialComponent } from "@/components/DifferentialComponent";
 import { FAQComponent } from "@/components/FAQComponent";
 import { FixedThemeToggle } from "@/components/FixedThemeToggle";
@@ -34,6 +35,7 @@ export default function Home() {
         <InfosComponent />
         <Photos />
         <FAQComponent />
+        <ConsultationForm />
       </main>
 
       <FixedThemeToggle />

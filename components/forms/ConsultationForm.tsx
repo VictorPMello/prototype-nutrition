@@ -66,11 +66,11 @@ export function ConsultationForm() {
       ref={ref}
       className="min-h-screen flex flex-col gap-4 justify-center items-center snap-start snap-always"
     >
-      <h2 className="text-lg text-center font-bold text-primary text-shadow-lg/50 text-shadow-black">
+      <h2 className="text-lg lg:text-6xl text-center font-bold text-primary text-shadow-lg/50 text-shadow-black">
         Comece Sua Transformação Hoje
       </h2>
 
-      <p className="text-sm font-bold text-primary text-shadow-lg/50 text-shadow-black text-center">
+      <p className="text-sm lg:text-4xl font-bold text-primary text-shadow-lg/50 text-shadow-black text-center">
         Consulta diagnóstica gratuita - Vagas limitadas
       </p>
 
@@ -211,7 +211,7 @@ export function ConsultationForm() {
         </form>
       </Form>
 
-      <p className="text-lg md:text-xl text-center text-primary text-shadow-lg/50 text-shadow-black">
+      <p className="text-lg md:text-xl lg:text-2xl text-center text-primary text-shadow-lg/50 text-shadow-black">
         <span className="font-bold">Garantia: </span>
         Se não ficar satisfeito(a) nos primeiros 30 dias, devolvemos 100% do
         investimento.

@@ -14,7 +14,7 @@ export function Header() {
         <h1 className="text-xl lg:text-4xl">Dra. Ana Vitale</h1>
         <NavComponent />
 
-        <div className="flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4">
           <Button className="bg-transparent text-2xl cursor-pointer font-bold text-foreground shadow-none text-shadow-black text-shadow-lg">
             Método
           </Button>

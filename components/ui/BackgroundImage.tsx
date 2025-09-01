@@ -4,7 +4,7 @@ export function BackgroundImage() {
   return (
     <div className="min-h-screen w-full fixed z-[-10]">
       <Image
-        className="w-screen h-screen absolute inset-0 z-[-10]"
+        className="w-screen h-screen absolute inset-0 z-[-10] lg:max-w-7xl mx-auto"
         src="/formBg.jpg"
         width={500}
         height={500}

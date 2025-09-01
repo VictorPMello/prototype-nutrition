@@ -15,14 +15,14 @@ export function HeroSection() {
       className="min-h-screen flex flex-col gap-4 lg:gap-10 p-4 justify-evenly lg:justify-end items-center snap-start snap-always relative text-center"
     >
       <Image
-        className="w-screen h-screen absolute inset-0 z-[-10]"
+        className="w-screen h-screen absolute inset-0 z-[-10] lg:max-w-7xl mx-auto"
         src="/profile.jpg"
         width={500}
         height={500}
         alt="Picture of the author"
       />
 
-      <Card className="justify-around bg-card-none border-0 p-0 shadow-none w-full text-card-none pt-36 md:pt-72 lg:pt-0">
+      <Card className="justify-around bg-card-none border-0 p-0 shadow-none w-full text-card-none pt-76 md:pt-72 lg:pt-0">
         <CardHeader>
           <CardTitle
             className="font-bold
@@ -46,7 +46,7 @@ export function HeroSection() {
         <Card className="bg-card-none border-none py-2">
           <CardContent
             className="text-sm md:text-lg lg:text-2xl
-            text-primary font-bold text-center bg-card-foreground rounded-2xl p-2"
+            text-primary font-bold text-center bg-secondary-foreground rounded-2xl p-2"
           >
             <p>Sem dietas malucas</p>
           </CardContent>
@@ -55,7 +55,7 @@ export function HeroSection() {
         <Card className="bg-card-none border-none py-2">
           <CardContent
             className="text-sm md:text-lg lg:text-2xl
-            text-primary font-bold text-center bg-card-foreground rounded-2xl p-2"
+            text-primary font-bold text-center bg-secondary-foreground rounded-2xl p-2"
           >
             <p>Método cientificamente comprovado</p>
           </CardContent>

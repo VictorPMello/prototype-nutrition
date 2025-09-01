@@ -24,7 +24,7 @@ export function MethodComponent() {
         4 etapas para sua transformação definitiva
       </p>
 
-      <div className="flex flex-col w-full lg:max-w-2/3 p-4 text-center gap-4 backdrop-blur-sm">
+      <div className="flex flex-col w-full lg:max-w-1/3 p-4 text-center gap-4 backdrop-blur-sm">
         <div>
           <span
             className="bg-primary-foreground 

@@ -36,7 +36,7 @@ export function Photos() {
         >
           <Image
             className="w-full h-screen"
-            src="/photo01.jpg"
+            src="/photo01.webp"
             width={500}
             height={500}
             alt="Picture of the author"
@@ -49,7 +49,7 @@ export function Photos() {
         >
           <Image
             className="w-full h-screen object-cover"
-            src="/photo02.jpg"
+            src="/photo02.webp"
             width={500}
             height={500}
             alt="Picture of the author"
@@ -61,7 +61,7 @@ export function Photos() {
         >
           <Image
             className="w-full h-screen object-cover"
-            src="/photo03.jpg"
+            src="/photo03.webp"
             width={500}
             height={500}
             alt="Picture of the author"

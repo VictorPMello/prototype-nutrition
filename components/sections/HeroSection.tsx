@@ -16,7 +16,7 @@ export function HeroSection() {
     >
       <Image
         className="w-screen h-screen absolute inset-0 z-[-10] lg:max-w-7xl mx-auto"
-        src="/profile.jpg"
+        src="/profile.webp"
         width={500}
         height={500}
         alt="Picture of the author"

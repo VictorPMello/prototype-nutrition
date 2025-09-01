@@ -11,10 +11,16 @@ export function MethodComponent() {
       ref={ref}
       className="min-h-screen flex flex-col justify-center items-center snap-start snap-always"
     >
-      <h2 className="font-bold text-lg text-center text-primary text-shadow-lg/50 text-shadow-black">
+      <h2
+        className="font-bold text-lg md:text-2xl
+        text-center text-primary text-shadow-lg/50 text-shadow-black"
+      >
         Como Funciona o Método Ana Vitale
       </h2>
-      <p className="font-bold text-sm text-primary text-shadow-lg/50 text-shadow-black mb-8">
+      <p
+        className="font-bold mb-2 text-sm md:text-lg md:text-lg
+        text-primary text-shadow-lg/50 text-shadow-black mb-8"
+      >
         4 etapas para sua transformação definitiva
       </p>
 
@@ -22,14 +28,14 @@ export function MethodComponent() {
         <div>
           <span
             className="bg-primary-foreground 
-              text-primary text-lg
+              text-primary text-lg md:text-xl
               rounded-full h-10 w-10 
               flex items-center justify-center m-auto"
           >
             1
           </span>
           <h3 className="font-bold text-xl">Diagnóstico Completo</h3>
-          <p className="text-xs">
+          <p className="text-xs md:text-lg">
             Análise detalhada do seu perfil metabólico, histórico e objetivos
             pessoais.
           </p>
@@ -38,14 +44,14 @@ export function MethodComponent() {
         <div>
           <span
             className="bg-primary-foreground 
-              text-primary text-lg
+              text-primary text-lg md:text-xl
               rounded-full h-10 w-10 
               flex items-center justify-center m-auto"
           >
             2
           </span>
           <h3 className="font-bold text-xl">Plano Personalizado</h3>
-          <p className="text-xs">
+          <p className="text-xs md:text-lg">
             Criação do seu protocolo alimentar único, baseado em evidências
             científicas.
           </p>
@@ -54,14 +60,14 @@ export function MethodComponent() {
         <div>
           <span
             className="bg-primary-foreground 
-              text-primary text-lg
+              text-primary text-lg md:text-xl
               rounded-full h-10 w-10 
               flex items-center justify-center m-auto"
           >
             3
           </span>
           <h3 className="font-bold text-xl">Acompanhamento Semanal</h3>
-          <p className="text-xs">
+          <p className="text-xs md:text-lg">
             Monitoramento constante com ajustes precisos para garantir
             resultados.
           </p>
@@ -70,14 +76,14 @@ export function MethodComponent() {
         <div>
           <span
             className="bg-primary-foreground 
-              text-primary text-lg
+              text-primary text-lg md:text-xl
               rounded-full h-10 w-10 
               flex items-center justify-center m-auto"
           >
             4
           </span>
           <h3 className="font-bold text-xl">Manutenção Sustentável</h3>
-          <p className="text-xs">
+          <p className="text-xs md:text-lg">
             Estratégias para manter seu peso ideal sem esforço pelo resto da
             vida.
           </p>

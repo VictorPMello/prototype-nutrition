@@ -15,9 +15,9 @@ export function FAQComponent() {
   return (
     <motion.section
       ref={ref}
-      className="min-h-screen flex flex-col justify-center items-center snap-start snap-always bg-sidebar-foreground"
+      className="min-h-screen flex flex-col justify-center items-center snap-start snap-always bg-sidebar-foreground md:gap-4"
     >
-      <h2 className="text-xl text-center font-bold text-primary">
+      <h2 className="text-xl md:text-2xl text-center font-bold text-primary">
         Dúvidas Frequentes
       </h2>
 
@@ -29,12 +29,12 @@ export function FAQComponent() {
       >
         <AccordionItem value="item-1">
           <AccordionTrigger
-            className="font-bold text-lg cursor-pointer hover:bg-sidebar/5 p-4
-            [&>svg]:w-5 [&>svg]:h-5 [&>svg]:text-popover"
+            className="font-bold text-lg md:text-xl cursor-pointer hover:bg-sidebar/5 p-4
+            [&>svg]:w-5 [&>svg]:h-5 md:[&>svg]:w-8 md:[&>svg]:h-8 [&>svg]:text-popover"
           >
             Como funciona o atendimento online?
           </AccordionTrigger>
-          <AccordionContent className="text-md p-4">
+          <AccordionContent className="text-base md:text-lg p-4">
             <p>
               Utilizamos plataforma própria com videoconferência, chat e envio
               de materiais. Você tem todo suporte necessário à distância.
@@ -44,12 +44,12 @@ export function FAQComponent() {
 
         <AccordionItem value="item-2">
           <AccordionTrigger
-            className="font-bold text-lg cursor-pointer hover:bg-sidebar/5 p-4
-            [&>svg]:w-5 [&>svg]:h-5 [&>svg]:text-popover"
+            className="font-bold text-lg md:text-xl cursor-pointer hover:bg-sidebar/5 p-4
+            [&>svg]:w-5 [&>svg]:h-5 md:[&>svg]:w-8 md:[&>svg]:h-8 [&>svg]:text-popover"
           >
             Quanto tempo para ver resultados?
           </AccordionTrigger>
-          <AccordionContent className="text-md p-4">
+          <AccordionContent className="text-base md:text-lg p-4">
             <p>
               Primeiros resultados aparecem em 15 dias. Resultados consistentes
               em 30 dias com acompanhamento adequado.
@@ -59,12 +59,12 @@ export function FAQComponent() {
 
         <AccordionItem value="item-3">
           <AccordionTrigger
-            className="font-bold text-lg cursor-pointer hover:bg-sidebar/5 p-4
-            [&>svg]:w-5 [&>svg]:h-5 [&>svg]:text-popover"
+            className="font-bold text-lg md:text-xl cursor-pointer hover:bg-sidebar/5 p-4
+            [&>svg]:w-5 [&>svg]:h-5 md:[&>svg]:w-8 md:[&>svg]:h-8 [&>svg]:text-popover"
           >
             O método funciona para homens e mulheres?
           </AccordionTrigger>
-          <AccordionContent className="text-md p-4">
+          <AccordionContent className="text-base md:text-lg p-4">
             <p>
               Sim! Adaptamos o protocolo para cada perfil metabólico,
               independente do gênero ou idade.
@@ -74,12 +74,12 @@ export function FAQComponent() {
 
         <AccordionItem value="item-4">
           <AccordionTrigger
-            className="font-bold text-lg cursor-pointer hover:bg-sidebar/5 p-4
-            [&>svg]:w-5 [&>svg]:h-5 [&>svg]:text-popover"
+            className="font-bold text-lg md:text-xl cursor-pointer hover:bg-sidebar/5 p-4
+            [&>svg]:w-5 [&>svg]:h-5 md:[&>svg]:w-8 md:[&>svg]:h-8 [&>svg]:text-popover"
           >
             Preciso tomar suplementos?
           </AccordionTrigger>
-          <AccordionContent className="text-md p-4">
+          <AccordionContent className="text-base md:text-lg p-4">
             <p>
               Apenas quando necessário. Priorizamos resultados através da
               alimentação, suplementando apenas deficiências identificadas.

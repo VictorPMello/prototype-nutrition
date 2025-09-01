@@ -15,43 +15,45 @@ export function Footer() {
     >
       <div className="flex flex-col justify-center items-center w-full p-4 text-center gap-4">
         <div className="flex flex-col gap-4">
-          <h2 className="text-lg text-center font-bold text-primary">
+          <h2 className="text-lg md:text-2xl text-center font-bold text-primary">
             Dra. Ana Vitale - Nutricionista
           </h2>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
             CRN-3 45678/P
           </p>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
-            <Phone className="w-5 h-5 text-primary" />
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
+            <Phone className="w-5 h-5 md:w-8 md:h-8 text-primary" />
             (11) 98765-4321
           </p>
-          <p className="flex justify-center text-sm w-full items-center gap-4 text-popover-foreground">
-            <Mail className="w-5 h-5 text-primary" />
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
+            <Mail className="w-5 h-5 md:w-8 md:h-8 text-primary" />
             contato@anavitale.com.br
           </p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <h2 className="text-lg text-center font-bold text-primary">
+          <h2 className="text-lg md:text-xl text-center font-bold text-primary">
             Atendimento
           </h2>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
             Segunda a Sexta: 8h às 18h
           </p>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
             Sábado: 8h às 12h
           </p>
-          <p className="flex justify-center text-base items-center gap-4 text-primary">
+          <p className="flex justify-center text-base md:text-xl items-center gap-4 text-primary">
             Presencial e Online
           </p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <h2 className="text-lg text-center font-bold text-primary">Legal</h2>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
+          <h2 className="text-lg md:text-xl text-center font-bold text-primary">
+            Legal
+          </h2>
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
             Política de Privacidade
           </p>
-          <p className="flex justify-center text-sm items-center gap-4 text-popover-foreground">
+          <p className="flex justify-center text-sm md:text-lg items-center gap-4 text-popover-foreground">
             CRN-3 45678/P
           </p>
         </div>

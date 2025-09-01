@@ -66,18 +66,18 @@ export function ConsultationForm() {
       ref={ref}
       className="min-h-screen flex flex-col gap-4 justify-center items-center snap-start snap-always"
     >
-      <h2 className="text-3xl font-bold text-primary text-shadow-lg/50 text-shadow-black">
+      <h2 className="text-lg text-center font-bold text-primary text-shadow-lg/50 text-shadow-black">
         Comece Sua Transformação Hoje
       </h2>
 
-      <p className="text-2xl font-bold text-primary text-shadow-lg/50 text-shadow-black mb-10">
+      <p className="text-sm font-bold text-primary text-shadow-lg/50 text-shadow-black text-center">
         Consulta diagnóstica gratuita - Vagas limitadas
       </p>
 
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="flex flex-col justify-center gap-4 p-8 bg-foreground rounded-4xl w-3xl"
+          className="flex flex-col justify-center gap-4 px-4 backdrop-blur-sm rounded-4xl h-[30rem]"
         >
           <FormField
             control={form.control}
@@ -87,7 +87,7 @@ export function ConsultationForm() {
                 <FormControl>
                   <Input
                     type="text"
-                    className="h-16 !text-2xl border-black !bg-foreground !text-primary-foreground"
+                    className="h-12 w-full text-xl md:!text-2xl border-black !bg-foreground !text-primary-foreground"
                     placeholder="Nome*"
                     required
                     {...field}
@@ -106,7 +106,7 @@ export function ConsultationForm() {
                 <FormControl>
                   <Input
                     type="tel"
-                    className="h-16 !text-2xl border-black !bg-foreground !text-primary-foreground"
+                    className="h-12 w-full text-xl md:!text-2xl border-black !bg-foreground !text-primary-foreground"
                     placeholder="WhatsApp*"
                     required
                     {...field}
@@ -124,7 +124,7 @@ export function ConsultationForm() {
                 <FormControl>
                   <Input
                     type="email"
-                    className="h-16 !text-2xl border-black !bg-foreground !text-primary-foreground"
+                    className="h-12 w-full text-xl md:!text-2xl border-black !bg-foreground !text-primary-foreground"
                     placeholder="Email*"
                     required
                     {...field}
@@ -142,7 +142,7 @@ export function ConsultationForm() {
                 <FormControl>
                   <Input
                     type="text"
-                    className="h-16 !text-2xl border-black !bg-foreground !text-primary-foreground"
+                    className="h-12 w-full text-xl md:!text-2xl border-black !bg-foreground !text-primary-foreground"
                     placeholder="Peso Atual*"
                     required
                     {...field}
@@ -160,7 +160,7 @@ export function ConsultationForm() {
                 <FormControl>
                   <Input
                     type="text"
-                    className="h-16 !text-2xl border-black !bg-foreground !text-primary-foreground"
+                    className="h-12 w-full text-xl md:!text-2xl border-black !bg-foreground !text-primary-foreground"
                     placeholder="Objetivo (kg para perder)*"
                     required
                     {...field}
@@ -180,18 +180,18 @@ export function ConsultationForm() {
                     onValueChange={field.onChange}
                     defaultValue={field.value}
                   >
-                    <SelectTrigger className="w-full !h-16 !text-2xl border-black !bg-foreground !text-primary-foreground">
+                    <SelectTrigger className="w-full !h-12 !text-2xl border-black !bg-foreground !text-primary-foreground">
                       <SelectValue placeholder="Já fez dietas antes?*" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl hover:!bg-foreground/80 !bg-foreground !text-primary-foreground"
+                        className="w-full h-12 text-xl md:!text-2xl !bg-foreground !text-primary-foreground hover:!bg-primary-foreground/80"
                         value="perder-peso"
                       >
                         Sim
                       </SelectItem>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl hover:!bg-foreground/80 !bg-foreground !text-primary-foreground"
+                        className="w-full h-12 text-xl md:!text-2xl !bg-foreground !text-primary-foreground hover:!bg-primary-foreground/80"
                         value="ganhar-massa"
                       >
                         Não
@@ -203,7 +203,7 @@ export function ConsultationForm() {
             )}
           />
           <Button
-            className="h-16 !text-2xl border-0 !bg-primary !text-primary-foreground"
+            className="h-12 text-xl md:!text-2xl border-0 !bg-primary !text-primary-foreground w-full"
             type="submit"
           >
             Submit
@@ -211,8 +211,8 @@ export function ConsultationForm() {
         </form>
       </Form>
 
-      <p className="text-2xl text-center text-primary text-shadow-lg/50 text-shadow-black mb-10">
-        <span className="font-bold">Garantia:</span>
+      <p className="text-lg md:text-xl text-center text-primary text-shadow-lg/50 text-shadow-black">
+        <span className="font-bold">Garantia: </span>
         Se não ficar satisfeito(a) nos primeiros 30 dias, devolvemos 100% do
         investimento.
       </p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { LenisProvider } from "@/components/LenisProvider";
+import { LenisProvider } from "@/components/providers/LenisProvider";
 
 const lexend = Lexend({
   variable: "--font-lexend",

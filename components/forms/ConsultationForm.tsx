@@ -66,11 +66,11 @@ export function ConsultationForm() {
       ref={ref}
       className="min-h-screen flex flex-col gap-4 justify-center items-center snap-start snap-always"
     >
-      <h2 className="text-3xl font-bold text-primary text-shadow-lg/50 text-shadow-black">
+      <h2 className="text-xl text-center font-bold text-primary text-shadow-lg/50 text-shadow-black">
         Comece Sua Transformação Hoje
       </h2>
 
-      <p className="text-2xl font-bold text-primary text-shadow-lg/50 text-shadow-black mb-10">
+      <p className="text-sm font-bold text-primary text-shadow-lg/50 text-shadow-black mb-10">
         Consulta diagnóstica gratuita - Vagas limitadas
       </p>
 

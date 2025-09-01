@@ -16,7 +16,6 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-
 import {
   Select,
   SelectContent,
@@ -73,7 +72,7 @@ export function FormComponent() {
                 <FormControl>
                   <Input
                     type="text"
-                    className="h-16 !text-2xl border-0 !bg-primary-foreground !text-primary"
+                    className="h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary"
                     placeholder="Nome*"
                     required
                     {...field}
@@ -91,7 +90,7 @@ export function FormComponent() {
                 <FormControl>
                   <Input
                     type="tel"
-                    className="h-16 !text-2xl border-0 !bg-primary-foreground !text-primary"
+                    className="h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary"
                     placeholder="WhatsApp*"
                     required
                     {...field}
@@ -108,7 +107,7 @@ export function FormComponent() {
                 <FormControl>
                   <Input
                     type="email"
-                    className="h-16 !text-2xl border-0 !bg-primary-foreground !text-primary"
+                    className="h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary"
                     placeholder="Email*"
                     required
                     {...field}
@@ -127,30 +126,30 @@ export function FormComponent() {
                     onValueChange={field.onChange}
                     defaultValue={field.value}
                   >
-                    <SelectTrigger className="w-full !h-16 !text-2xl border-0 !bg-primary-foreground !text-primary">
+                    <SelectTrigger className="w-full !h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary">
                       <SelectValue placeholder="Objetivo Principal*" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
+                        className="w-full h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
                         value="perder-peso"
                       >
                         Perder Peso
                       </SelectItem>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
+                        className="w-full h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
                         value="ganhar-massa"
                       >
                         Ganhar Massa Muscular
                       </SelectItem>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
+                        className="w-full h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
                         value="reeducacao"
                       >
                         Reeducação Alimentar
                       </SelectItem>
                       <SelectItem
-                        className="w-full !h-16 !text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
+                        className="w-full h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary hover:!bg-primary-foreground/80"
                         value="melhora-saude"
                       >
                         Melhoria da Saúde
@@ -162,7 +161,7 @@ export function FormComponent() {
             )}
           />
           <Button
-            className="h-16 !text-2xl border-0 !bg-primary-foreground !text-primary"
+            className="h-12 text-xl md:h-16 md:!text-2xl border-0 !bg-primary-foreground !text-primary"
             type="submit"
           >
             Submit

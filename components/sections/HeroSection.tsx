@@ -12,7 +12,7 @@ export function HeroSection() {
   return (
     <motion.section
       ref={ref}
-      className="min-h-screen flex flex-col gap-4 p-4 items-center snap-start snap-always relative text-center"
+      className="min-h-screen flex flex-col gap-4 p-4 justify-evenly items-center snap-start snap-always relative text-center"
     >
       <Image
         className="w-screen h-screen absolute inset-0 z-[-10]"
@@ -22,33 +22,28 @@ export function HeroSection() {
         alt="Picture of the author"
       />
 
-      <Card className="justify-end bg-card-none border-0 shadow-none w-full flex-1 text-card-none">
+      <Card className="justify-around bg-card-none border-0 p-0 shadow-none w-full text-card-none pt-36">
         <CardHeader>
-          <CardTitle className="font-bold text-5xl text-chart-1 text-shadow-lg/50 !text-shadow-black">
-            Emagreça de Forma Definitiva Sem Dietas Restritivas
+          <CardTitle className="font-bold text-2xl text-chart-1 text-shadow-lg/50 !text-shadow-black">
+            Emagreça Definitivo
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="!text-shadow-lg !text-shadow-black">
-            Método científico personalizado que elimina o efeito sanfona e
-            transforma sua relação com a comida para sempre.
+          <p className="text-lg !text-shadow-lg !text-shadow-black">
+            Método científico que transforma sua relação com a comida
           </p>
         </CardContent>
       </Card>
 
-      <div className="flex w-full h-80 gap-2">
-        <Card className="w-1/3 bg-card-none border-none shadow-none backdrop-blur-xs">
-          <CardContent className="flex flex-col h-full justify-between text-primary text-shadow-black text-shadow-lg text-center">
-            <p>Resultados em 30 dias</p>
+      <div className="flex flex-col md:flex-row justify-center md:justify-centergap-2 gap-2">
+        <Card className="bg-card-none border-none py-2">
+          <CardContent className="text-sm text-primary font-bold text-center bg-card-foreground rounded-2xl p-2">
             <p>Sem dietas malucas</p>
           </CardContent>
         </Card>
 
-        <div className="w-1/3 bg-transparent"></div>
-
-        <Card className="w-1/3 bg-card-none border-none shadow-none backdrop-blur-xs">
-          <CardContent className="flex flex-col h-full justify-between text-primary text-shadow-black text-shadow-lg text-center">
-            <p>Acompanhamento personalizado</p>
+        <Card className="bg-card-none border-none py-2">
+          <CardContent className="text-sm text-primary font-bold text-center bg-card-foreground rounded-2xl p-2">
             <p>Método cientificamente comprovado</p>
           </CardContent>
         </Card>

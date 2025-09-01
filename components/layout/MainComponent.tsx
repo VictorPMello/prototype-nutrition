@@ -19,7 +19,6 @@ export function MainComponent() {
       <InfosComponent />
       <Photos />
       <FAQComponent />
-      <ConsultationForm />
     </main>
   );
 }

@@ -15,7 +15,7 @@ export function HeroSection() {
       className="min-h-screen flex flex-col gap-4 lg:gap-10 p-4 justify-evenly lg:justify-end items-center snap-start snap-always relative text-center"
     >
       <Image
-        className="w-screen h-screen absolute inset-0 z-[-10] lg:max-w-7xl mx-auto"
+        className="w-screen h-screen absolute inset-0 z-[-10] lg:max-w-5xl mx-auto"
         src="/profile.webp"
         width={500}
         height={500}
@@ -26,7 +26,7 @@ export function HeroSection() {
         <CardHeader>
           <CardTitle
             className="font-bold
-            text-2xl md:text-4xl lg:text-8xl
+            text-2xl md:text-4xl lg:text-7xl
             text-primary text-shadow-lg/50 !text-shadow-black"
           >
             Emagreça Definitivo
@@ -34,7 +34,7 @@ export function HeroSection() {
         </CardHeader>
         <CardContent>
           <p
-            className="text-lg md:text-2xl lg:text-4xl
+            className="text-lg md:text-2xl lg:text-3xl
             !text-shadow-lg !text-shadow-black"
           >
             Método científico que transforma sua relação com a comida

@@ -12,7 +12,7 @@ export function MethodComponent() {
       className="min-h-screen flex flex-col justify-center items-center snap-start snap-always"
     >
       <h2
-        className="font-bold text-lg md:text-2xl lg:text-6xl
+        className="font-bold text-lg md:text-2xl lg:text-5xl
         text-center text-primary text-shadow-lg/50 text-shadow-black"
       >
         Como Funciona o Método Ana Vitale
